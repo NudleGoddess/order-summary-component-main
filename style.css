@@ -1,0 +1,142 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.background-img {
+    width: 100%;
+    position: absolute;
+    top: -100px;
+}
+
+.main-div {
+    background-color: hsl(225, 100%, 98%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 450px;
+    border-radius: 25px;
+}
+
+.illustration-img {
+    border-radius: 25px 25px 0 0;
+}
+
+h2 {
+    font-weight: 800;
+    color: hsl(223, 47%, 23%);
+}
+
+.first-paragraph {
+    padding: 0 15% 10% 15%;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan-box {
+    display: flex;
+    background-color: hsla(225, 100%, 94%, 0.482);
+    border-radius: 10px;
+    width: 340px;
+    height: 90px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 25px;
+}
+
+.music-icon {
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+span {
+    position: relative;
+    font-weight: 800;
+    color: hsl(223, 47%, 23%);
+    top: 25%;
+    left: 5%;
+}
+
+.price {
+    color: hsl(224, 23%, 55%);
+    font-size: 15px;
+    position: relative;
+    top: 35%;
+    right: 20%;
+}
+
+.change-link {
+    text-decoration: underline;
+    cursor: pointer;
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+    font-size: 14px;
+    position: relative;
+    top: 36px;
+    left: 20px;
+}
+
+.change-link:hover {
+    text-decoration: none;
+    color: hsl(223, 47%, 23%);
+    font-weight: 700;
+}
+
+
+/* button */
+
+.first-button {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    position: relative;
+    bottom: 20px;
+    width: 340px;
+    border-style: none;
+    height: 42px;
+    font-weight: 700;
+}
+
+.first-button:hover {
+    background-color: hsl(223, 47%, 23%);
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.cancel-order-div {
+    margin-bottom: 30px;
+}
+
+.cancel-order-link {
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+.cancel-order-link:hover {
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+}
+
+
+/* mobile */
+
+@media (max-width: 700px) {
+    .main-div {
+        background-color: hsl(225, 100%, 98%);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 400px;
+        border-radius: 25px;
+    }
+    .illustration-img {
+        width: 400px;
+    }
+}
